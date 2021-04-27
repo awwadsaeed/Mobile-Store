@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mobile Store</h1>
+    </header>
+    <main>
+        <div id="left">
+            <form id="form">
+                <label for="user">User</label>
+                <input type="text" id="user" name="user" required>
+                <label for="type">Type</label>
+                <select name="type" id="type">
+                    <option value="Samsung">Samsung</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Huawei">Huawei</option>
+                </select>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+        <div id="right">
+            <table id="table">
+                <tr>
+                    <th>User</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Condition</th>
+                </tr>
+            </table>
+        </div>
+        <button id="button">Clear Data</button>
+    </main>
+    <footer>
+        <h2>&copy2021 ASAC</h2>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
